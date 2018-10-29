@@ -120,6 +120,8 @@ namespace RockPaper
             }
             if (playAgainResponse == "y")
             {
+                result.playerOneScore = 0;
+                result.playerTwoScore = 0;
                 RunGame();
             }
 
